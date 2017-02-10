@@ -1,0 +1,23 @@
+header {
+    margin-top: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    .impact {
+        display: flex;
+        padding: 0 20px;
+        min-height: 100px;
+        align-items: center;
+        .what-we-do {            
+            width: 100%;
+            font-size: 40px;
+            font-weight: bold
+        }
+        .elevator-pitch {
+            width: 100%;
+            font-size: 30px;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}

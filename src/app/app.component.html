@@ -1,0 +1,10 @@
+<div class="st-wrap">  
+  <st-menu *ngIf="showMenu"></st-menu>
+
+  <div class="st-body" [class.menu-on]="showMenu">
+    <div class="st-header" (click)="toggleMenu()"></div>
+    <st-header></st-header>
+    <router-outlet></router-outlet>
+    <st-footer></st-footer>
+  </div>
+</div>
